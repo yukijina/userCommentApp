@@ -3,3 +3,43 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(rgba(20, 66, 110, 0.8), rgba(53, 13, 56, 0.79)), url(https://lh3.googleusercontent.com/s4v4smOlk4dKm9ni3cieUnf6d7d9JvnXtywSXcTVhIn97njR2laNcwVJiAT1Rx1kNqwE=w720-h310);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Header */
+header {
+  font-family: 'Cabin Sketch', cursive;
+  margin: 5% 0;
+}
+
+.hd-h1 {
+  font-size: 5rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Section */
+#formDiv {
+
+.sec-form {
+  
+}
+#myInput {
+ width: 60%;
+ margin-bottom: 2%;
+}
+
+#myText {
+  border: none;
+  border-radius: 5px;
+  padding: 0.8rem;
+}
+
+#f
+}

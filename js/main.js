@@ -45,12 +45,7 @@ var body = document.getElementsByTagName('body')[0];
     resultDiv.appendChild(newH2);
     resultDiv.appendChild(t);
 
-    ///problem, only shark img show up
-    // for (var i = 0; i < animals.length; i++) {
-    //     var newImg = document.getElementById('icon');
-    //     newImg.src = animals[i].path;
-    //     selection.value = animals[i].path;
-  // };
+
  };
 
  // Remove and Hide button
@@ -98,12 +93,6 @@ function hideFunction() {
 }
 
 
-// resultDiv.style.visibility = "hidden";
-
-
-
-
-
 /////////
 
 
@@ -142,18 +131,25 @@ function hideFunction() {
 //   }
 // ];
 //
+//
+//
 // //for loop: create animals inside dropdown menu
 // for (var i = 0; i < animals.length; i++) {
 //   //grab select element and store in a variable
 //   var dropdown = document.getElementById('mySelect');
 //   //create option element
 //   var selection = document.createElement('option');
+//
 //    //option appends dropdown
 //    dropdown.appendChild(selection);
-//
 //    //place/grab date to selection to animals name
 //    selection.value = animals[i].name;
 //    //create text for animals in selection
 //    selection.textContent = animals[i].name;
 //
 // };
+//
+// //create image element inside resultDiv
+// var newImg = document.createElement('img');
+// newImg.className = 'img-fluid';
+// resultDiv.appendChild(newImg);
