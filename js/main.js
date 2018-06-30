@@ -3,7 +3,7 @@ var Div1 = document.getElementById('formDiv');
 //create button element to HTML and store in a valiable
 var myBtn = document.createElement('button');
  //give class name to myBtn created above (style button)
- myBtn.className = 'btn btn-outline-info';
+ myBtn.className = 'btn btn-outline-light btn-lg my-2';
  //create text to myBtn
  myBtn.textContent ='POST';
  //myBtn is appended to div
@@ -17,7 +17,6 @@ var newH2 = document.createElement('h2');
 var t = document.createElement('p');
 //select div id=result and store in a variable
 var resultDiv = document.getElementById('result');
-
 var body = document.getElementsByTagName('body')[0];
 
 
@@ -54,14 +53,14 @@ var body = document.getElementsByTagName('body')[0];
   //create remove button element
   var remBtn = document.createElement('button');
   //give class name to remove button
-  remBtn.className = 'btn btn-outline-danger remove';
+  remBtn.className = 'btn btn-outline-danger remove mx-2';
   //give text inside remove button
   remBtn.textContent = 'Remove';
 
   //reate hide button
   var hideBtn = document.createElement('button');
   //give class name to hide button
-  hideBtn.className = 'btn btn-outline-success hide';
+  hideBtn.className = 'btn btn-outline-success hidemx-2';
   //give text to hide button
   hideBtn.textContent = 'Hide';
 
